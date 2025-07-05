@@ -509,8 +509,11 @@ ul .menu_item{
     height: 350px;
 }
 
-.review_details p>span{
+.review_details span,
+.review_details_2 span
+{
     font-weight: var(--alt-header-weight);
+    font-size: 36px;
 }
 
 .review_details_2 .detail_2{
