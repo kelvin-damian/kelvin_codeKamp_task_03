@@ -7,6 +7,30 @@
     box-sizing: border-box;
 }
 
+:root{
+    --list-size: 24px;
+    --features-size: 20px;
+    --header-size: 65px;
+    --alt-header-size: 27px;
+    --secondary-header-size:48px;
+    --secondary-text-size: 32px;
+
+    --primary-font-weight: 500px;
+    --secondary-font-weight: 800px;
+    --alt-font-weight: 600px;
+    --alt-header-weight: 700px;
+
+    --primary-color: #000000;
+    --nav-button-log_in: #CBFFD0;
+    --nav-button-sign_up: #26A69A;
+
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Poppins';
+}
+
 
 
 /* ================================================HOME SECTION========================================================= */
@@ -16,3 +40,295 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* =================================================NAV SECTION============================================= */
+nav{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+/* nav image */
+.nav_image{
+    width: 253px;
+    height: 170px;
+}
+
+/* menu items */
+ul{
+    display: flex;
+    justify-content: space-around; 
+    /* text-align: center; */
+    margin-left: 39px;
+    padding-top: 30px;
+    gap: 25px;
+}
+
+ul .menu_item{
+    list-style: none;
+    font-size: var(--list-size);
+    
+    font-weight: var(--primary-font-weight);
+    cursor: pointer;
+}
+
+.menu_item a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* menu-item arrow downward images */
+.menu_item .nav_arrow_img{
+    position: relative;
+    top: 0.3rem;
+}
+
+.menu-wrapper{
+    display: flex;
+    gap: 20rem;
+}
+
+/* nav buttons */
+.nav_buttons{
+    margin-top: 30px;
+}
+
+.nav_buttons button{
+    border: solid 1px transparent;
+    border-radius: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: var(--list-size);
+    color: var(--primary-color);
+    font-weight: var(--primary-font-weight);
+}
+
+.nav_buttons .nav_log_in{
+   background-color: var(--nav-button-log_in); 
+}
+
+.nav_buttons .nav_sign_up{
+    background-color: var(--nav-button-sign_up);  
+}
+
+/* =========================HERO CONTAINER================================================ */
+.hero_container{
+    display: flex;
+    gap: 3.8rem;
+}
+
+.home_summary{
+    margin: 48px 0 0 40px;
+}
+
+.home_summary h1{
+    font-size: var(--header-size);
+    color: var(--primary-color);
+    font-weight: var(--secondary-font-weight);
+    width: 750px;
+    line-height: 110%;   
+}
+
+.home_summary p{
+    font-size: var(--secondary-text-size);
+    font-weight: var(--alt-font-weight);
+    width: 750px;
+    margin-top: 3rem;
+    color: var(--primary-color);
+}
+
+/* mobile app download images */
+.app-download{
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+
+.apple_store, .google_play{
+    border: solid 1.59px transparent;
+    border-radius: 11.4px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.apple_store_details, .google_store_details {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+}
+
+.apple_store_details{
+    padding: 15.26px 17.45px;
+    width: 210px;
+    height: 70px;
+}
+
+.google_store_details{
+    padding: 13px 17.45px;
+    width: 236px;
+    height: 70px;
+}
+
+.app_platform{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.apple_store .apple_play_store{
+    width: 31px;
+    height: 38.11px;
+}
+
+.google_play .google_play_store{
+    width: 40px;
+    height: 45px;
+}
+
+.app_platform .apple_text_img{
+    width: 121.01px;
+    height: 11.15px;
+}
+
+.app_platform .google_text_img{
+    width: 68px;
+    height: 11px;
+}
+
+.app_platform .google_text_download{
+    width: 148px;
+    height: 30px;
+}
+
+/* ================================HERO RIGHT SECTION===================================================== */
+.hero_right_section{
+    border-radius: solid 1px transparent;
+    border-top-left-radius: 300px;
+    width: 575px;
+    height: 714px;
+    background-color: var(--nav-button-log_in);
+    position: relative;
+}
+
+
+.hero_right_section .pc_device {
+    position: absolute;
+    top: 2.8rem;
+    right: 0.4rem;
+    width: 969px;
+    height: 727.14px;
+}
+
+.hero_right_section .mobile_device {
+    position: absolute;
+    top: 22.8rem;
+    width: 162px;
+    height: 181px;
+}
+
+/* =======================================FEATURES SECTION====================================== */
+.feature_container{
+    display: flex;
+    gap: 8rem;
+    box-shadow: 0px 10px 30px 1px #00000040;
+    box-shadow: 0px -10px 30px 1px #00000040;
+    padding-bottom: 5rem;
+}
+
+.feature_mobile_img{
+    width: 500px;
+    height: 714px;
+    border: solid 1px transparent;
+    border-bottom-right-radius: 300px;
+    background-color: var(--nav-button-sign_up);
+    /* position: relative; */
+}
+
+.feature_mobile_img img{
+    width: 559.45px;
+    height: 520px;
+    position: relative;
+    top: 13.4rem;
+    /* right: 0.3rem; */
+}
+
+/* features details */
+.feature_details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.5rem;
+}
+
+.feature_details h3{
+    color: var(--primary-color);
+    font-size: var(--secondary-header-size);
+    font-weight: var(--alt-header-weight);
+}
+
+.feature_summary{
+    display: flex;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+
+.features_info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1rem 0 0 2rem;
+    width: 300px;
+    height: 320px;
+}
+
+.features_info img{
+    width: 70px;
+    height: 70px;
+}
+
+.features_info h5{
+    font-size: var(--alt-header-size);
+    font-weight: var(--alt-header-weight);
+}
+
+.features_info p{
+    width: 250px;
+    font-weight: var(--primary-font-weight);
+    font-size: var(features-size);
+}
+
+/* .features_info .mx-text{
+    padding-bottom: 12px;
+} */
+
+.feature_mx{
+    border: solid 1px var(--nav-button-log_in);
+    border-radius: 27px;
+    background-color: var(--nav-button-log_in);
+}
+
+.feature_px{
+    border: solid 1px var(--nav-button-sign_up);
+    border-radius: 27px;
+    background-color: var(--nav-button-sign_up);
+}
+
+/* ============================================================================= */
+.how_it_work{
+    background-image: url(/asset/images/Rectangle\ 599.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px 30px 1px #00000040;
+    box-shadow: 0px -10px 30px 1px #00000040;
+}
+
+.it_work_summary{
+    padding: 40px 40px 0 40px;
+}
+
+.it_work_summary h3{
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: var(--alt-header-weight);
+    font-size: var(--secondary-header-size);
+}
+

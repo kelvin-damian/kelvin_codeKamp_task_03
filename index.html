@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <div id="home" class="home_container">
+    <section id="home" class="home_container">
         <nav class="menu_container">
             <!-- ================================NAV IMAGE======================================= -->
             <div class="nav_image">
@@ -16,16 +16,124 @@
             </div>
 
             <!-- ================================MENU/NAVIGATION LIST============================================ -->
-             <ul class="menu_list">
-                <li class="menu_item">
-                    <span>
-                        features
-                        <img src="./asset/images/fe_arrow-down.png" alt="menu arrow drop-down image">
-                    </span>
-                </li>
-             </ul>
-        </nav>
-    </div>
+            <div class="menu-wrapper">
+                <ul class="menu_list">
+                    <li class="menu_item">
+                        <a href="#features">features</a>
+                        <span class="nav_arrow_img">
+                            <img src="./asset/images/fe_arrow-down.png" alt="menu arrow drop-down image">
+                        </span>
+                    </li>
     
+                    <li class="menu_item">
+                        How it Works
+                        <span class="nav_arrow_img">
+                            <img src="./asset/images/fe_arrow-down.png" alt="menu arrow drop-down image">
+                        </span>
+                    </li>
+    
+                    <li class="menu_item">Company</li>
+                </ul>
+    
+                <div class="nav_buttons">
+                    <button id="logIn" class="nav_log_in">Log in</button>
+                    <button id="logIn" class="nav_sign_up">Sign Up</button>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- ====================================HERO LANDING PAGE========================================== -->
+        <div class="hero_container">
+            <div class="home_summary">
+                <h1>Track Your Money. Master Your Future.</h1>
+                <p>Track Wise helps you stay on top of your income, control your daily spending, budget and achieve your financial goals.</p>
+
+                <!-- Download App option for mobile operating system -->
+                <div class="app-download">
+                    <div class="apple_store">
+                        <div class="apple_store_details">
+                            <img src="./asset/images/Apple logo.png" alt="apple play store icon" class="apple_play_store">
+                            <span class="app_platform">
+                                <img src="./asset/images/Download on the.png" alt="text image of Download on the" class="apple_text_img">
+                                <img src="./asset/images/App Store.png" alt="text image of apple store" class="apple_text_download">
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="google_play">
+                        <div class="google_store_details">
+                            <img src="./asset/images/Google Play logo.png" alt="google play store icon" class="google_play_store">
+                            <div class="app_platform">
+                                <img src="./asset/images/Get it on.png" alt="text image of get it on" class="google_text_img">
+                                <img src="./asset/images/Google Play.png" alt="text image of google play" class="google_text_download">
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                
+            </div>
+
+            <!-- ===============================hero right aside section ========================================-->
+            <div class="hero_right_section">
+                <img src="./asset/images/mockuuups-free-macbook-pro-mockup-on-stone-pedestal-removebg-preview 1.png" alt="An image of a laptop" class="pc_device">
+                <img src="./asset/images/iMockup - Google Pixel 8 Pro.png" alt="mobile-device img" class="mobile_device">
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================FEATURE SECTION================================================================== -->
+    <section class="feature_container" id="features">
+        <div class="feature_mobile_img">
+            <img src="./asset/images/mockuuups-free-iphone-15-pro-hand-mockup 1.png" alt="">
+        </div>
+
+        <div class="feature_details">
+            <h3>Our Features  </h3>
+            <div class="feature_summary">
+                <div class="features_info feature_mx">
+                    <img src="./asset/images/mingcute_paper-fill.png" alt="paper icon">
+                    <h5>Income & Expense Tracking</h5>
+                    <p class="mx-text">Easily log what you earn and spend, and stay within your budget.</p>
+                </div>
+
+                <div class="features_info feature_px">
+                    <img src="./asset/images/uis_chart.png" alt="data chart visual icon">
+                    <h5>Visual Reports</h5>
+                    <p>Get graphs and weekly summaries to better understand your finances.</p>
+                </div>
+            </div>
+
+            <div class="feature_summary px-summary">
+                <div class="features_info feature_px">
+                    <img src="./asset/images/bxs_notification.png" alt="notification icon">
+                    <h5>Smart Reminders</h5>
+                    <p>Set alerts to log spending or check your weekly budget.</p>
+                </div>
+
+                <div class="features_info feature_mx">
+                    <img src="./asset/images/mdi_head-idea.png" alt="idea icon">
+                    <h5>Financial Insights</h5>
+                    <p>Receive intelligent tips based on your habits.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- =================================HOW IT WORK SECTION================================================= -->
+    <section class="how_it_work">
+        <div class="it_work_summary">
+            <h3>How It Works</h3>
+
+            <ol class="action_steps">
+                <li>Create your free account</li>
+                <li>Set your budget and goals</li>
+
+            </ol>
+        </div>
+
+    </section>
 </body>
 </html>
