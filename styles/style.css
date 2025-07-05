@@ -428,12 +428,16 @@ ul .menu_item{
     display: flex;
 }
 
-.testimonial_shape{
+.testimonial_shape,
+.testimonial_shape_2{
     width: 575px;
     height: 427px;
-    border: solid 1px var(--nav-button-sign_up);
-    border-bottom-right-radius: 300px;
+    border: solid 1px var(--nav-button-sign_up); 
     background-color: var(--nav-button-sign_up);
+}
+
+.testimonial_shape{
+    border-bottom-right-radius: 300px;
 }
 
 .testimonial h3{
@@ -444,9 +448,10 @@ ul .menu_item{
 .reviews{
     display: flex;
     justify-content: center;
+    align-items: center;
     z-index: 1;
-    position: relative;
-    top: -95px;
+    /* position: relative;
+    top: -95px; */
     /* left: 75px; */
 }
 
@@ -512,7 +517,7 @@ ul .menu_item{
     width: 413px;
     height: 353px;
     font-size: 36px;
-    padding-left: 0.4rem;
+    padding-left: 0.7rem;
 }
 
 .review_1{
@@ -526,5 +531,7 @@ ul .menu_item{
 }
 
 .testimonial_shape_2{
-    
+    border-top-left-radius: 300px;
+    position: relative;
+    left: 58.8%;
 }
