@@ -45,7 +45,7 @@ body{
 
 /* ================================================HOME SECTION========================================================= */
 .home_container{
-    background-image: url(/asset/images/Rectangle\ 599.png);
+    background-image: url(../asset/images/Rectangle\ 599.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -324,7 +324,7 @@ ul .menu_item{
 
 /* ============================================================================= */
 .how_it_work{
-    background-image: url(/asset/images/Rectangle\ 599.png);
+    background-image: url(../asset/images/Rectangle\ 599.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -554,7 +554,7 @@ ul .menu_item{
 
 /* ===================================================FAQ============================================= */
 .faq{
-    background-image: url(/asset/images/Rectangle\ 599.png);
+    background-image: url(../asset/images/Rectangle\ 599.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
