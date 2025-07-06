@@ -451,7 +451,7 @@ ul .menu_item{
 }
 
 .testimonial h3{
-    padding: 66px 0 0 155px;
+    padding: 66px 0 0 45px;
 }
 
 /* review */
@@ -460,6 +460,7 @@ ul .menu_item{
     justify-content: center;
     align-items: center;
     z-index: 1;
+    margin-left: 5.3rem;
     /* position: relative;
     top: -95px; */
     /* left: 75px; */
@@ -487,7 +488,7 @@ ul .menu_item{
     display: flex;
     flex-direction: column;
     position: relative;
-    top: -120px;
+    top: -25px;
 }
 
 /* testimonial image */
@@ -544,6 +545,8 @@ ul .menu_item{
 }
 
 .testimonial_shape_2{
+    width: 575px;
+    height: 427px;
     border-top-left-radius: 300px;
     position: relative;
     left: 58.8%;
