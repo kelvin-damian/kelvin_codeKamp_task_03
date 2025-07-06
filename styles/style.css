@@ -10,11 +10,12 @@
 :root{
     --list-size: 24px;
     --features-size: 20px;
-    --header-size: 65px;
     --alt-header-size: 27px;
-    --secondary-header-size:48px;
-    --secondary-text-size: 32px;
     --review-text-size: 30px;
+    --secondary-text-size: 32px;
+    --secondary-header-size:48px;
+    --header-size: 65px;
+    --faq-text: 37px;
 
     --primary-font-weight: 500px;
     --default-font-weight: 400px;
@@ -25,6 +26,13 @@
     --primary-color: #000000;
     --nav-button-log_in: #CBFFD0;
     --nav-button-sign_up: #26A69A;
+
+    --border-bottom-right-radius: 300px;
+
+    --font-style-bold: bold;
+    --font-extra-bold: extra-bold;
+
+    
 
 }
 
@@ -127,7 +135,8 @@ ul .menu_item{
     color: var(--primary-color);
     font-weight: var(--secondary-font-weight);
     width: 750px;
-    line-height: 110%;   
+    line-height: 110%;
+     
 }
 
 .home_summary p{
@@ -240,7 +249,7 @@ ul .menu_item{
     width: 500px;
     height: 714px;
     border: solid 1px transparent;
-    border-bottom-right-radius: 300px;
+    border-bottom-right-radius: var(--border-bottom-right-radius);
     background-color: var(--nav-button-sign_up);
     /* position: relative; */
 }
@@ -418,7 +427,7 @@ ul .menu_item{
     box-shadow: 0px -10px 30px 1px #00000040;
     position: relative;
     z-index: 2;
-    top: -435px;
+    bottom: 435px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;  
@@ -537,4 +546,81 @@ ul .menu_item{
     border-top-left-radius: 300px;
     position: relative;
     left: 58.8%;
+}
+
+/* ===================================================FAQ============================================= */
+.faq{
+    background-image: url(/asset/images/Rectangle\ 599.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 430px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.faq_shapes{
+    width: 575px;
+    height: 700px;
+    border: solid 1px var(--nav-button-sign_up);
+    background-color: var(--nav-button-log_in);
+    border-bottom-right-radius: 300px;
+}
+
+.faq-details{
+    padding-top: 154px;
+}
+
+.faq-details h3{
+    color: var(--primary-color);
+    font-size: var(--secondary-header-size);
+    font-weight: var(--alt-header-weight);
+}
+
+.faq_container{
+    border: solid 1px var(--nav-button-sign_up);
+    border-radius: 37px;
+    width: 790px;
+    height: 610px;
+    background-color: var(--nav-button-sign_up);
+    margin-top: 145px;
+    padding: 0 30px;
+}
+
+.questions{
+    border: solid 1px var(--nav-button-log_in);
+    border-radius: 27px;
+    background-color: var(--nav-button-log_in);
+    margin-top: 30px;
+    
+}
+
+.question_wrapper,
+.question_wrapper_2{
+    display: flex;
+    padding: 28px ;
+}
+
+/* faq text */
+
+.question_wrapper p,
+.question_wrapper_2 p{
+    font-weight: var(--primary-font-weight);
+    font-size: var(--faq-text);
+    color: var(--primary-color);
+}
+
+.question_wrapper .faq_q5{
+    width: 653px;
+}
+
+.question_wrapper img{
+    margin-left: 14.2rem;
+    width: 60px;
+    height: 60px; 
+}
+
+.question_wrapper_2 .faq_q5{
+    margin-left: 22px;
 }
