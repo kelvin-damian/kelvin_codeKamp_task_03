@@ -39,6 +39,7 @@
 body{
     /* min-height: 100vh; */
     font-family: 'Poppins';
+    overflow-x: hidden;
 }
 
 
@@ -532,6 +533,7 @@ ul .menu_item{
 {
     font-weight: var(--alt-header-weight);
     font-size: 36px;
+    padding: 0.2rem 0 0.2rem 0;
 }
 
 .review_details_2 .detail_2{
@@ -556,7 +558,7 @@ ul .menu_item{
     height: 427px;
     border-top-left-radius: 300px;
     position: relative;
-    left: 58.8%;
+    left: 59%;
 }
 
 /* ===================================================FAQ============================================= */
