@@ -305,7 +305,7 @@ ul .menu_item{
 .features_info p{
     width: 250px;
     font-weight: var(--primary-font-weight);
-    font-size: var(features-size);
+    font-size: var(--features-size);
 }
 
 /* .features_info .mx-text{
@@ -316,6 +316,10 @@ ul .menu_item{
     border: solid 1px var(--nav-button-log_in);
     border-radius: 27px;
     background-color: var(--nav-button-log_in);
+}
+
+.feature_mx .mx-text{
+    height: 140px;
 }
 
 .feature_px{
