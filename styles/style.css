@@ -298,6 +298,8 @@ ul .menu_item{
 .features_info h5{
     font-size: var(--alt-header-size);
     font-weight: var(--alt-header-weight);
+    color: var(--primary-color);
+    text-align: left;
 }
 
 .features_info p{
@@ -344,6 +346,7 @@ ul .menu_item{
     text-align: center;
     font-weight: var(--alt-header-weight);
     font-size: var(--secondary-header-size);
+    font-style: Bold;
 }
 
 .action_steps_1{
