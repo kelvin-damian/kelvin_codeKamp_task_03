@@ -661,17 +661,17 @@ ul .menu_item{
 }
 
 .contact h5{
-    font-weight: 1,500px;
+    font-weight: 500px;
     font-size: 37px;
 }
 
 .contact span{
     font-size: 42px;
-    font-weight: 2,700px;
+    font-weight: 700px;
 }
 
 .contact h3{
-    font-weight: 2,600px;
+    font-weight: 600px;
     font-size: 43px;
     padding-top: 0.5rem;
 }
@@ -705,7 +705,7 @@ ul .menu_item{
 
 .support span{
     color: #ffffff;
-    font-weight: 2,600px;
+    font-weight: 600px;
     font-size: 40px;
 }
 
