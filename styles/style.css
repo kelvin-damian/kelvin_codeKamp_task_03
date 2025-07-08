@@ -381,7 +381,7 @@ ul .menu_item{
 
 .action_step_2{
     display: flex;
-    margin: 5rem 10rem 0 8rem;
+    margin: 5rem 10rem 0 12rem;
     gap: 9rem;
 }
 
@@ -394,7 +394,7 @@ ul .menu_item{
     display: flex;
     /* justify-content: center;
     align-items: center; */
-    margin-left: 145px;
+    margin-left: 24%;
     position: relative;
 }
 
@@ -655,6 +655,7 @@ ul .menu_item{
 
 .footer_logo{
     text-align: center;
+    -webkit-
 }
 
 .contact h3, h5{
