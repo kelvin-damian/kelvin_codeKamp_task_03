@@ -213,7 +213,6 @@ ul .menu_item{
 
 /* ================================HERO RIGHT SECTION===================================================== */
 .hero_right_section{
-    box-shadow: 24px 18px 21.7px 0px #00000040;
     border-radius: solid 1px transparent;
     border-top-left-radius: 300px;
     width: 575px;
@@ -224,6 +223,7 @@ ul .menu_item{
 
 
 .hero_right_section .pc_device {
+    
     position: absolute;
     top: 2.8rem;
     right: 0.4rem;
@@ -465,11 +465,6 @@ ul .menu_item{
 }
 
 .testimonial_shape{
-    
-
-}
-
-.testimonial_shape{
     border-bottom-right-radius: 300px;
 }
 
@@ -488,7 +483,7 @@ ul .menu_item{
     top: -95px; */
     /* left: 75px; */
     position: relative;
-    bottom: 295px;
+    bottom: 310px;
 }
 
 .review_details{
